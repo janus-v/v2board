@@ -68,7 +68,7 @@ class Nowpayments {
 
         $params = [
             'price_amount' => $order['total_amount'] / 100,
-            'price_currency': "usd",
+            'price_currency' => "usd",
             'order_id' => $order['trade_no'],
             'order_description' => '订单号 ' . $order['trade_no'],
             'ipn_callback_url' => $order['notify_url'],
