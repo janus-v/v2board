@@ -2,7 +2,7 @@ FROM php:8.2-fpm
 
 # Install system dependencies
 RUN apt-get update && apt-get install -y --no-install-recommends --no-install-suggests \
-  nginx supervisor git zip unzip cron vim gettext-base procps \
+  nginx supervisor git zip unzip cron vim gettext-base procps wget \
   && rm -rf /var/lib/apt/lists/*
 
 

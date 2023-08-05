@@ -51,7 +51,9 @@ envsubst '${APP_NAME} ${APP_DESCIPTION} ${PUBLIC_APP_URL} ${APP_CURRENCY} ${APP_
 sed -i 's/;php_admin_value\[error_log\] =/php_admin_value[error_log] = \/var\/log\/fpm-php.www.log/g' $PHP_FPM_CONF
 
 # Check if the DEBUG environment variable is set to true
-DEBUG="true"
+#DEBUG="true"
+
+chmod 0777 /www/config/v2board.php
 
 if [ "$DEBUG" = "true" ]; then
   # Enable log_errors
