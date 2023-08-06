@@ -44,6 +44,8 @@ RUN php composer.phar install -v
 EXPOSE 80
 EXPOSE 443
 
+EXPOSE 8080
+
 COPY server/entrypoint.sh /entrypoint.sh
 COPY server/supervisor.conf /etc/supervisor/conf.d/supervisor.conf
 
