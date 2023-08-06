@@ -6,7 +6,7 @@
   'app_name' => '$APP_NAME',
   'app_description' => '$APP_DESCIPTION',
   'app_url' => '$PUBLIC_APP_URL',
-  'subscribe_url' => $SUBSCRIPT_URL,
+  'subscribe_url' => '$SUBSCRIPT_URL',
   'try_out_plan_id' => '2',
   'try_out_hour' => '24',
   'tos_url' => NULL,
