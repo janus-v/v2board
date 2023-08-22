@@ -1941,6 +1941,9 @@ h6 {
     margin-bottom: 30px;
     text-align: center;
 }
+.pricing.trial {
+    background-color: #ffe;
+}
 
 .pricing.pricing-highlight .pricing-title {
     background-color: #6777ef;
@@ -2043,6 +2046,7 @@ h6 {
 
 .pricing-tab .nav-pills .nav-link {
     padding: 10px 24px;
+    color: #3c2299;
 }
 
 .pricing-tab .nav-pills .nav-link.active {
