@@ -321,6 +321,11 @@ h6 {
     color: #6c757d !important;
 }
 
+.nav-sticky.navbar .navbar-nav li .nav-link img {
+    filter: invert(0);
+}
+
+
 .nav-sticky.navbar .navbar-nav li .nav-link.active,
 .nav-sticky.navbar .navbar-nav li .nav-link:hover,
 .nav-sticky.navbar .navbar-nav li .nav-link:focus {
